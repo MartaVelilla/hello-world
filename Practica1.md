@@ -5,59 +5,40 @@ FORK: se emplea para crear una copia de un repositorio remoto en una cuenta pers
 GIT CLONE: clona un repositorio remoto en local. Descarga todos los archivos en una carpeta
            Establece una conexión entre el repositorio local y remoto para sincronizar los cambios.
 
-@MartaVelilla ➜ /tmp $ git clone https://github.com/MartaVelilla/hello-world
-Cloning into 'hello-world'...
-remote: Enumerating objects: 41, done.
-remote: Counting objects: 100% (7/7), done.
-remote: Compressing objects: 100% (5/5), done.
-remote: Total 41 (delta 1), reused 3 (delta 1), pack-reused 34
-Unpacking objects: 100% (41/41), 59.80 KiB | 1.81 MiB/s, done.
+![image](https://user-images.githubusercontent.com/97589757/214023634-c5d9ad06-9517-4736-afd0-902f20f6ae07.png)
+
+Para comprobar que realmente se ha clonado:
+![image](https://user-images.githubusercontent.com/97589757/214023663-e9b13455-5e52-4d07-b6e2-18af152e7409.png)
 
 
 GIT STATUS: indica si ha cambiado algo en el repositorio. 
             Muestra la información de los archios que hayan sido modificados.
+            
+Cuando no ha cambiado nada desde la última vez sale de a siguiente manera:
+![image](https://user-images.githubusercontent.com/97589757/214023764-b8ffd651-eca9-4519-82d9-e6d8889535a7.png)
 
-@MartaVelilla ➜ /workspaces/hello-world (main ✗) $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   fichero
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        fichero2
-
-no changes added to commit (use "git add" and/or "git commit -a")
+Cuando ha cambiado cosas, queda así:
+![image](https://user-images.githubusercontent.com/97589757/214023906-0d525d4c-9d10-4634-91c9-68d67e6a97e3.png)
 
 
 GIT ADD .: es un comando que se emplea para guardar los cambios. 
            Realmente crea un borrador que en el siguiente paso será confirmado.
 
-@MartaVelilla ➜ /workspaces/hello-world (main ✗) $ git add .
+![image](https://user-images.githubusercontent.com/97589757/214023995-b2484036-3116-49d5-bfba-5ae64b47a836.png)
 
 
 GIT COMMIT -M "Practica1": confirma los cambios que fueron guardados en el borrador. 
                            El -m sirve para incluir un mensaje para el commit.
 
-@MartaVelilla ➜ /workspaces/hello-world (main) $ git commit -m "Practica1"
-[main 3bf196f] Practica1
- 1 file changed, 0 insertions(+), 0 deletions(-)
- rename fichero => Practica1 (100%)
+![image](https://user-images.githubusercontent.com/97589757/214024045-22163da7-a2e1-4c25-b0f1-1cf88d8564bf.png)
 
 
 GIT PUSH ORIGIN MAIN: copia lo que hay en el repositorio origen a el main.
                       En nuestro caso sube a la nube los archivos
 
-@MartaVelilla ➜ /workspaces/hello-world (main) $ git push origin main
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (6/6), 580 bytes | 580.00 KiB/s, done.
-Total 6 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To https://github.com/MartaVelilla/hello-world
-   99397d6..3bf196f  main -> main
+![image](https://user-images.githubusercontent.com/97589757/214024109-85394942-8546-46fe-9068-df65dac630a6.png)
+
+Si ya estuviera todo en la nube sale el siguiente mensaje:
+![image](https://user-images.githubusercontent.com/97589757/214024204-360646f8-f5f4-4710-b79c-d574573cae55.png)
+
+
