@@ -41,4 +41,27 @@ GIT PUSH ORIGIN MAIN: copia lo que hay en el repositorio origen a el main.
 Si ya estuviera todo en la nube sale el siguiente mensaje:
 ![image](https://user-images.githubusercontent.com/97589757/214024204-360646f8-f5f4-4710-b79c-d574573cae55.png)
 
+GIT CHECKOUT -B FEATURE/1: crea una rama y cambia a esa rama
+
+![image](https://user-images.githubusercontent.com/97589757/214025053-38a84f1e-420f-4938-bf91-410136f14052.png)
+
+
+GIT CHECKOUT MAIN: cambia a otra rama llamada main
+
+![image](https://user-images.githubusercontent.com/97589757/214025887-e689a016-d29e-414f-99e9-1bc4e23354e6.png)
+
+
+INSTALACIÓN DE SOFTWARE:
+
+JAVA:
+
+![image](https://user-images.githubusercontent.com/97589757/214026421-a5ca892f-d8c5-4379-9aee-b29598d70e30.png)
+
+
+MAVEN:
+
+![image](https://user-images.githubusercontent.com/97589757/214026545-f6405f3b-27c0-42ad-92c6-90fa5268978b.png)
+
+
+
 
