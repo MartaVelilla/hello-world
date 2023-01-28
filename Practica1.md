@@ -12,7 +12,7 @@ Para comprobar que realmente se ha clonado:
 
 
 GIT STATUS: indica si ha cambiado algo en el repositorio. 
-            Muestra la información de los archios que hayan sido modificados.
+            Muestra la información de los archivos que hayan sido modificados.
             
 Cuando no ha cambiado nada desde la última vez sale de a siguiente manera:
 ![image](https://user-images.githubusercontent.com/97589757/214023764-b8ffd651-eca9-4519-82d9-e6d8889535a7.png)
